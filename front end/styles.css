@@ -97,7 +97,7 @@
   filter: contrast(1.2) brightness(0.9);
 }
 .btn-image-4 {
-  background-image: url('/path/to/image4.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV-PBq9FGVmx4b2ORqf3gxY0uxWJ7pJAM-Fg&s');
   background-size: cover;
   background-position: center;
   color: white;
@@ -105,10 +105,13 @@
 }
 .btn-image-1:hover,
 .btn-image-2:hover,
-.btn-image-3:hover,
 .btn-image-4:hover {
   filter: brightness(0.7) saturate(1.1);
   text-decoration: none; /* Evita subrayado del texto */
+}
+.btn-image-3:hover {
+    filter: contrast(1.1) brightness(0.5) saturate(1.1);
+    text-decoration: none; /* Evita subrayado del texto */
 }
 
 
